@@ -467,9 +467,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 60px;
+  gap: 50px;
   background-color: #1C1814;
   width: 1200px;
+}
+.our__inner iframe {
+  margin-left: -50px;
 }
 .our__inner img {
   width: 585px;
@@ -526,9 +529,6 @@ body {
   width: 252px;
   height: 62px;
   opacity: 1;
-  padding-top: 20px;
-  padding-right: 36px;
-  padding-bottom: 20px;
   padding-left: 36px;
   gap: 10px;
   background-color: #C99E71;
@@ -544,5 +544,26 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 20px;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.footer__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.footer input {
+  padding: 12px 20px;
+  border: 1px solid #32323D;
+  background-color: #1C1814;
+  color: #FFFFFF;
+  font-family: Urbanist;
 }/*# sourceMappingURL=main.css.map */

@@ -7,9 +7,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 60px;
+        gap: 50px;
         background-color: #1C1814;
         width: 1200px;
+        iframe{
+            margin-left:-50px;
+        }
         img{
             width: 585px;
             margin-left: -63px;
@@ -19,7 +22,6 @@
 width: 585px;
 height: 652px;
     background-color: #201b15;
-
     }
     h6 {
         text-align: center;
@@ -74,9 +76,6 @@ color: #FFFFFF;
         width: 252px;
         height: 62px;
         opacity: 1;
-        padding-top: 20px;
-        padding-right: 36px;
-        padding-bottom: 20px;
         padding-left: 36px;
         gap: 10px;
         background-color: #C99E71;
@@ -92,6 +91,7 @@ color: #FFFFFF;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 20px;
     }
+   
 }
