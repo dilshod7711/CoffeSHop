@@ -1,0 +1,135 @@
+.banner {
+    position: relative;
+    margin: 0 auto;
+    &__inner {
+     img{
+      width: 100%;  
+     }
+    }
+    &__content {
+        margin: 0 auto;
+        position: absolute;
+        top: 200px;
+        left:100px;
+        h1 {
+            font-size: 72px;
+            font-family: Righteous;
+font-weight: 400;
+font-size: 72px;
+line-height: 130%;
+letter-spacing: 0%;
+max-width: 529px;
+color: #FFFFFF;
+
+
+        }
+        p{
+font-family: "Urbanist", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 180%;
+letter-spacing: 0%;
+text-transform: capitalize;
+max-width: 521px;
+color: #FFFFFF;
+
+
+        }
+        button {
+            font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+width: 202;
+height: 70;
+background-color: #C99E71;
+padding-top: 24px;
+padding-right: 40px;
+padding-bottom: 24px;
+padding-left: 40px;
+gap: 10px;
+border: none;
+margin-top: 20px;
+color: #FFFFFF;
+
+        }
+    }
+    &__circle-item {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      p {
+        color: #FFFFFF;
+        font-family:Righteous;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+      }
+      span {
+        color: #C99E71;
+        font-family: Righteous;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+
+      }
+    }
+    &__circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 100px;
+    }
+        &__circle-img{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            img {
+                width: 268px;
+            }
+        }
+        &__circle-title {
+            padding: 160px 50px;
+            background-color: #1C1814;
+            width: 510px;
+            height: 635px;
+            opacity: 1;
+            h6 {
+                color: #C99E71;
+                font-family: "Inter", sans-serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+            }
+            h1 {
+    font-family: Righteous;
+font-weight: 400;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: 0%;
+color: #FFFFFF;
+margin-top: 20px;
+
+}
+p {
+    font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color:#FFFFFF ;
+margin-top: 30px;
+}
+
+        }
+}

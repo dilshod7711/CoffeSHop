@@ -1,0 +1,166 @@
+.Product {
+    margin-top: 100px;
+    h6 {
+        text-align: center;
+        color: #C99E71;
+        font-family: Urbanist;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+    }
+    h1{
+        text-align: center;
+        font-family: Righteous;
+font-weight: 400;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: 0%;
+color: #FFFFFF;
+
+    }
+    &__cards {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    &__item {
+    width: 366px;
+height: 559px;
+top: 2545px;
+left: 375px;
+opacity: 1;
+background-color: #121315;
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 0px;
+  }
+  button {
+    width: 200px;
+    height: 40px;
+    padding: 10px 30px;
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #C99E71;
+    margin-top: 40px;
+  }
+  h2 {
+    font-family: Righteous;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: center;
+
+  }
+  .img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+  p {
+   font-family: Urbanist;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #FFFFFF;
+
+  }
+  span{
+    font-family: Urbanist;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #C99E71;
+  }
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.btn {
+    width: 252;
+height: 62;
+
+opacity: 1;
+padding-top: 20px;
+padding-right: 36px;
+padding-bottom: 20px;
+padding-left: 36px;
+gap: 10px;
+background-color: #C99E71;
+color: #FFFFFF;
+border: none;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+margin-top: 100px;
+}
+&__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #1C1814;
+    padding: 30px 30px ;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    h3 {
+        font-family: Righteous;
+font-weight: 400;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: 0%;
+color: #FFFFFF;
+
+    }
+    p {
+            font-family: Urbanist;
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FFFFFF;
+max-width:535px ;
+margin-top: 20px;
+
+    }
+    button {
+        width: 170px;
+          height: 52px;
+border: none;
+         background-color: #C99E71;
+margin-top: 30px;
+    }
+}
+}

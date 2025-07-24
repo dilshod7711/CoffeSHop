@@ -1,0 +1,130 @@
+.menu {
+    margin-top: 100px;
+    h6 {
+        text-align: center;
+        color: #C99E71;
+        font-family: Urbanist;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+    }
+    h1{
+        text-align: center;
+        font-family: Righteous;
+font-weight: 400;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: 0%;
+color: #FFFFFF;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        width: 565px;
+height: 120px;
+border: 1px solid #32323D;
+padding: 10px 30px ;
+span {
+    font-family: Urbanist;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+color: #C99E71;
+margin-left: auto;
+
+}
+p {
+    font-family: Righteous;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+
+}
+
+    }
+    &__cards {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 50px
+    }
+    &__small {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__says {
+        margin-top: 100px;
+    }
+    &__says-item {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding: 30px 30px;
+        img{
+            width: 129px;
+        }
+        p {
+         font-family: Urbanist;
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+letter-spacing: 0%;
+text-transform: capitalize;
+max-width: 332px;
+color: #FFFFFFCC;
+
+        }
+     
+    }
+    &__says-items {
+background-color: #1C1814;
+width: 565px;
+height: 305px;
+margin-top: 50px;
+
+
+
+    }
+    &__logo-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 20px 30px;
+        h1 {
+ font-family: Urbanist;
+font-weight: 500;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0%;
+color: #FFFFFF;
+
+        }
+        p {
+            font-family: Urbanist;
+font-weight: 500;
+font-size: 14px;
+line-height: 180%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FFFFFF80;
+
+
+        }
+    }
+&__bigg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px
+    ;
+
+}
+}

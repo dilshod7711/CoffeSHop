@@ -1,0 +1,41 @@
+.header {
+    padding: 20px 0;
+    background-color: #1C1814;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu {
+        display: flex;
+        gap: 30px;
+        a{
+            color: #FFFFFF;
+            font-family: "Inter" , sans-serif;
+            &:hover{
+                text-decoration: underline;
+                color: #C99E71;
+            }
+        }
+    }
+    &__icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        a{
+            color: #FFFFFF;
+            font-family: "Inter" , sans-serif;
+            &:hover{
+                text-decoration: underline;
+                color: #C99E71;
+            }
+        }
+    }
+    &__img{
+        img{
+            width: 100%;
+        }
+    }
+    
+}
